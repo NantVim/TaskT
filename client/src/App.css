@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.app-wrapper-content {
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.table {
+  width: 600px;
+}
+
+.table-header {
+  padding: 2%;
+}
+
+.reload-btn {
+  background-image: url("./assets/refresh.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  margin-left: 22%;
+}
+
+.preloader-wrapper {
+  margin-top: 10%;
+}
